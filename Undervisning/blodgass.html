@@ -1,24 +1,164 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link rel="stylesheet" type="text/css" href="../styles.min.css">
+		<link rel="stylesheet" type="text/css" href="../styles.css">
 		<meta charset="UTF-8">
 		<title> Blodgass </title>
 		<link rel="icon" href="../Bilder/logo/wing.png" type="image/png" size="16x6">
 	</head>
-
 	<body id="undervisningBlodgass">
-		<div class="header">
-			<a href="index.html"><img class="logo" src="../Bilder/logo/logo.png" alt="FredMed Logo" width="150"></img></a>
+		<header>
+			<a href="../index.html"><img class="logo" src="../Bilder/logo/logo.png" alt="FredMed Logo" width= 150px></img></a>
 			<ul>
 			    <li><a href="#">Kontakt</a></li>
 				<li><a href="#">Hobbier</a></li>
 				<li><a href="#">Profesjonelt</a></li>
-				<li><a href="#">Om <img src="../Bilder/logo/fredmed.png" alt="FredMed" width="65"></a></li>
+				<li><a href="#">Om <img src="../Bilder/logo/fredmed.png" alt="FredMed" width= 65px></a></li>
 			</ul>
-		</div>
-		<section id="presentasjon">
+		</header>
 
-		</section>
+		<aside class="innhold">
+			<h2>Innhold</h2>
+			<ul>
+				<li><a href="#bakgrunn">Bakgrunn</a></li>
+				<li><a href="#arteriell_blodgass">Arteriell blodgass</a></li>
+				<li><a href="#venos_blodgass">Venøs blodgass</a></li>
+				<li><a href="#provetaking">Prøvetaking</a></li>
+				<li><a href="#analyse">Analyse</a></li>
+				<li><a href="#kilder">Kilder</a></li>
+			</ul>
+		</aside>
+
+		<article class="presentasjon">
+
+			<h1>Arteriell blodgass</h1>
+			<h2 id="bakgrunn">Bakgrunn</h2>
+			<p>
+				Blodgass gir klinikere muligheten til å vurdere nivået, partialtrykket, av forskjellige gasser i blodet i kilopascal (kPa) og syre-basestatus gjennom pH som er hydrogenioner sin aktivitet målt på en logaritmisk skala.
+				Nivåene reflektere lungenes gassutvikling og kroppens metabolske aktivitet. Det blir også målt andre verdier som er viktige i akutte situasjoner; laktat og glukose.
+				Prøvene for blodgass kan tas både venøst, arterielt og kapillært.
+			</p>
+
+			<h2 id="arteriell_blodgass">Arteriell blodgass</h2>
+			<p>
+				Dette er gullstandarden for måling av gasstrykk og syre-basestatus. Ettersom det er en enkel prossedyre som ofte analyseres pasientnært, er den
+				er den perfekt for akutt situasjoner hvor det trengs å vurdere alvorlighetsgraden av en tilstand. Klassiske eksempler hvor det alltid skal tas
+				er bevisstløs pasient (ketoacidose, hypoglykemi), obstruktiv lungesykdom (KOLS), mistanke om alvorlige infeksjoner (sepsis) eller iskemi i tarm (illeus).
+				<img id="arteriellBlodgassBilde" src="../Bilder/Tegninger/ArteriellBlodgass.png" alt="Tegning av arteriell blodgass">
+			</p>
+
+			<h2 id="venos_blodgass">Venøs blodgass</h2>
+			<p>
+				En venøs prøve er hentet fra blod i venøs fase. Dette er blod som returnerer tilbake til hjertet etter å ha vært gjennom kroppens.
+				Etter det har levert fra seg oksigen og næring, samt tatt i mot
+				avfallsstoffer som karbondioksid
+				Gjennomsnittlig er pH 0,03 enheter lavere i venøst enn i arterielt blod, mens pCO2 er 0,6 kPa høyere og pO2 er 4,9 kPa lavere.
+				<img id="venøsBlodgassBilde" src="../Bilder/Tegninger/VenøsBlodgass.png" alt="Tegning av venøs blodgass">
+			</p>
+
+			<h2 id="provetaking">Prøvetaking</h2>
+			<h3>Utstyr</h3>
+			<ul>
+				<li>Pasientens ID</li>
+				<li>Blodgassprøyte</li>
+				<li>Desinfeksjon</li>
+				<li>Tupfer</li>
+			</ul>
+
+			<h3>Forberedelse</h3>
+			<ol>
+				<li>Bekreft pasientens ID</li>
+				<li>Fortell pasienten hensikt med prøven og hva som skal skje</li>
+				<li>Sprit eller vask fingrene</li>
+				<li>Kjenn etter pulsen med flere fingre</li>
+				<li>Sprit området</li>
+				<li>Sprit non-dominant fingertupp</li>
+			</ol>
+
+			<h3>Teknikk</h3>
+			<p>
+				Alle har hver sin teknikk, men teknikken jeg presenterer her legger vekt på å minimalisere pasientens ubehag. Dette ved å gjøre to
+				forsøk på vinkelrett stikk. Dette stikket penetrerer minst vev og gjør derfor minst vondt. Det er derimot ikke lurt å gjøre et nytt
+				tredje stikk ettersom nålen begynner å bli sløv.
+			</p>
+
+			<ol>
+				<li>Bruk den spritede fingertuppen til å kartlegge 2-3 cm av årens forløp. Enklest er dette om fingeren er parallell til arterien.</li>
+				<li>Når arterien er lokalisert under sentrum av fingernegl, flyttes fingertuppen tilsvarende distalt for å klargjøre til stikk.</li>
+				<li>Fortell pasienten at det kommer et stikk.</li>
+				<li>Stikk nålen vinkelrett inn i arterien ca 10 mm.</li>
+				<li>Om du bommer tar du ut nålen, kjenner kjapt på nytt og stikker lodrett en gang til.</li>
+				<li>Ved fortsatt bom kan du nå begynne å lete. Da bruker du den spritede fingeren til å finne pulsen, og
+					vinkler nålen 30-60 grader i forhold til huden og stikker mot blodåren.</li>
+				<li>Press en tupfer hardt over inntikkssted i 2 minutter. Som regel trengs ikke tape eller plaster.</li>
+			</ol>
+
+			<h3>Tips og triks</h3>
+			<ul>
+				<li>Legg dynen under pasientens håndledd for å få strekk på arterien. Dette hindrer den i å rulle.</li>
+				<li>Bruk god tid på å finne pulsen. Let gjerne på begge armene. Som regel kan det teknisk sett være lettest å stikke på
+					venstre hånd, ettersom du da enkelt kan sitte forran pasienten og kjenne med venstrehånden og bruke høyre hånd til å stikke.</li>
+				<li><img id="arterieUndertuberkerl" src="../Bilder/arterieundertuberkel.png" alt="innstikkssted">
+					Arterien ligger mest perifert helt distalt mot håndleddet. Som regel stikker jeg 1-2 cm proksimalt for tuberkelen på skafoidbenet.</li>
+				<li>Om det kommer blodsvar når du stikker, men sprøyten ikke automatisk fylles har du gått gjennom blodåren.
+					Da behøver du bare trekke nålen lett tilbake for å komme inn i blodåren igjen.</li>
+			</ul>
+
+			<h2 id="analyse">Analyse</h2>
+			<p>
+				Siden blodgass ofte analyseres i stressende situasjoner er det viktig å holde hodet kaldt og ha en systematisk fremgangsmåte.
+			</p>
+
+			<p>Start med å se på pH. Dette gir et raskt verblikk over syre-basestatus i blodet:</p>
+			<ol>
+				<li>Normalt nivå av syre i blodet</li>
+				<li>Høyt nivå av syre, lav pH, acidose</li>
+				<li>Lavt nivå syre i blodet, høy pH, alkalose</li>
+			</ol>
+
+			<p>
+				En kan så vurdere nivået av bikarbonat (HCO3) og pCO2 for å si noe om bakgrunnen for forstyrrelsen.
+				Ved unormal pH i en akutt fase er det fire forskjellige hoved scenarier.
+			</p>
+			<table>
+				<tr>
+					<th style="border: none"></th>
+					<th>pCO2</th>
+					<th>HCO3</th>
+				</tr>
+				<tr>
+					<td>Respiratorisk acidose</td>
+					<td>høy</td>
+					<td>normal</td>
+				</tr>
+				<tr>
+					<td>Metabolsk acidose</td>
+					<td>normal</td>
+					<td>lav</td>
+				</tr>
+				<tr>
+					<td>Respiratorisk alkalose</td>
+					<td>lav</td>
+					<td>normal</td>
+				</tr>
+				<tr>
+					<td>Metabolsk alkalose</td>
+					<td>normal</td>
+					<td>høy</td>
+				</tr>
+			</table>
+
+			<h2 id="kilder">Kilder</h2>
+			<ol>
+				<li><a href="https://brukerhandboken.no/index.php?action=showtopic&topic=1cbf3b923a1ea94e9d19&highlight=true">
+				Nasjonal brukerhåndbok i Medisinsk Biokjemi</a></li>
+				<li><a href="https://labhandbok.unn.no/medisinsk-biokjemi/blodgass-arterielt-fullblod-sproyte-article1994-816.html">
+				Laboratoriehåndbok UNN - Bloodgass, arterielt fullblod</a></li>
+				<li><a href="https://labhandbok.unn.no/medisinsk-biokjemi/blodgass-venost-fullblod-sproyte-article2589-816.html">
+				Laboratoriehåndbok UNN - Bloodgass, venøst fullblod</a></li>
+				<li><a href="https://www.bioingenioren.no/fag/fag-originalartikkel/referansegrenser-for-blodgassanalyser-og-elektrolytter-i-venost-blod-fra-friske-voksne/">
+				Bioingeniøren - Referansegrenser for blodgassanalyser og elektrolytter i venøst blod fra friske voksne</a></li>
+			</ol>
+		</article>
     </body>
 </html>

@@ -1,0 +1,278 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.blackbutton {
+  background-color: #121212;
+}
+
+/*navbar og logo*/
+header {
+  z-index: 3;
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 70px;
+  background-color: #121212;
+}
+header .logo {
+  padding-left: 50px;
+  padding-top: 10px;
+}
+header .logo:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+header ul {
+  position: absolute;
+  bottom: 0;
+  right: 15px;
+}
+header ul li {
+  float: right;
+  position: relative;
+  padding-right: 40px;
+  padding-bottom: 20px;
+}
+header ul li a {
+  color: #cccccc;
+  padding-bottom: 5px;
+  text-align: center;
+}
+header ul li a:hover {
+  border-bottom: 1px solid white;
+  color: white;
+}
+
+/*index.html*/
+.intro {
+  position: relative;
+  color: white;
+}
+.intro .picturetext {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+}
+.intro .picturetext p {
+  text-align: center;
+  padding: 10px;
+  font-family: "Brush Script MT";
+}
+.intro .booking {
+  display: block;
+  padding: 10px;
+  border: 2px solid white;
+  position: absolute;
+  top: 50%;
+  left: 33%;
+  font-size: 30px;
+}
+.intro .patientinfo {
+  display: block;
+  padding: 10px;
+  border: 2px solid white;
+  position: absolute;
+  top: 50%;
+  left: 53%;
+  font-size: 30px;
+}
+.intro .patientinfo a {
+  color: white;
+}
+
+/* Kolonner med info*/
+.padding {
+  float: left;
+  width: 5%;
+  padding: 15px;
+}
+
+.column {
+  float: left;
+  width: 40%;
+  padding: 25px;
+  text-align: justify;
+  color: #121212;
+}
+
+/*pasientinfo, symptomene, sykdommene*/
+.toptext {
+  display: block;
+  width: 100%;
+  margin: auto;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  text-align: center;
+}
+.toptext div {
+  padding: 20px;
+}
+.toptext a {
+  color: #cccccc;
+  text-align: center;
+  padding-bottom: 5px;
+}
+.toptext a:hover {
+  border-bottom: 1px solid white;
+  color: white;
+}
+.toptext .blackbutton {
+  margin: auto;
+  width: 300px;
+}
+.toptext .oversikt {
+  float: left;
+  margin: 40px;
+  width: auto;
+  height: auto;
+  background-color: black;
+  color: #cccccc;
+  padding: 20px;
+}
+.toptext .oversikt ul {
+  text-align: left;
+  list-style-type: none;
+}
+.toptext .oversikt ul li {
+  padding-bottom: 5px;
+}
+
+.articlesection div {
+  padding: 30px;
+}
+.articlesection div h2 {
+  text-align: left;
+  padding-left: 50px;
+}
+.articlesection div h3 {
+  text-align: left;
+  padding-left: 20px;
+}
+.articlesection div ul {
+  padding-left: 25px;
+  list-style: square;
+}
+.articlesection .articleheader {
+  width: 100%;
+}
+.articlesection .leftColumn {
+  display: block;
+  float: left;
+  width: 50%;
+  text-align: justify;
+  color: #121212;
+}
+.articlesection .rightColumn {
+  display: block;
+  float: left;
+  width: 49.6%;
+  text-align: justify;
+}
+.articlesection .rightColumn div {
+  padding-top: 0;
+}
+
+.innhold {
+  top: 0px;
+  float: right;
+  right: 447px;
+  z-index: 0;
+  display: block;
+  position: sticky;
+  height: 2000px;
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.innhold h2 {
+  padding-bottom: 10px;
+}
+.innhold a {
+  font-size: 16px;
+}
+.innhold a:link {
+  color: black;
+}
+.innhold a:visited {
+  color: black;
+}
+.innhold a:hover {
+  color: #bb0000;
+}
+.innhold a:active {
+  color: black;
+}
+.innhold ul {
+  padding: 0;
+  list-style: none;
+}
+.innhold li {
+  padding: 0;
+  padding-bottom: 10px;
+}
+
+.presentasjon {
+  z-index: 2;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-left: 450px;
+  margin-right: 650px;
+  padding: 70px 100px 10%;
+  height: 10000px;
+}
+.presentasjon p {
+  padding-bottom: 10px;
+  /*border: 1px solid red;*/
+}
+.presentasjon img {
+  float: right;
+  position: inline;
+  width: 50px;
+  transition: transform 0.3s;
+}
+.presentasjon img:hover {
+  transform: scale(10);
+}
+.presentasjon h1 {
+  padding: 0px 0px 0px;
+  font-size: 40px;
+}
+.presentasjon h2 {
+  padding: 50px 0px 10px;
+  font-size: 30px;
+}
+.presentasjon h3 {
+  padding: 0px 0px 10px;
+  font-size: 18px;
+}
+.presentasjon ul {
+  padding: 0;
+  padding: 0px 50px 10px;
+}
+.presentasjon ol {
+  padding: 0;
+  padding: 0px 50px 10px;
+}
+.presentasjon table {
+  width: 50px;
+}
+.presentasjon th {
+  border: 3px solid black;
+  padding: 10px;
+}
+.presentasjon td {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+#undervisningBlodgass {
+  background-image: url("Bilder/plasma-2753321_1920.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/*# sourceMappingURL=styles.css.map */

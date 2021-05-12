@@ -237,6 +237,7 @@ header ul li a:hover {
 }
 .presentasjon img:hover {
   transform: scale(10);
+  transform-origin: bottom right;
 }
 .presentasjon h1 {
   padding: 0px 0px 0px;

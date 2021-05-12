@@ -268,7 +268,9 @@ header{
 	}
 
 	img:hover{
+
 		transform: scale(10);
+		transform-origin: (bottom right);
 	}
 
 	h1{

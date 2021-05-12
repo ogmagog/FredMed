@@ -219,10 +219,11 @@ header ul li a:hover {
 .presentasjon {
   z-index: 2;
   background-color: rgba(255, 255, 255, 0.8);
-  margin-left: 450px;
-  margin-right: 650px;
-  padding: 70px 100px 10%;
-  height: 10000px;
+  margin: auto;
+  width: 60%;
+  max-width: 100%;
+  padding: 70px 100px;
+  height: 100%;
 }
 .presentasjon p {
   padding-bottom: 10px;
@@ -257,18 +258,6 @@ header ul li a:hover {
   padding: 0;
   padding: 0px 50px 10px;
 }
-.presentasjon table {
-  width: 50px;
-}
-.presentasjon th {
-  border: 3px solid black;
-  padding: 10px;
-}
-.presentasjon td {
-  border: 1px solid black;
-  padding: 10px;
-}
-
 #undervisningBlodgass {
   background-image: url("Bilder/plasma-2753321_1920.jpg");
   background-attachment: fixed;

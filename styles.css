@@ -220,9 +220,9 @@ header ul li a:hover {
   z-index: 2;
   background-color: #f0e6e6;
   margin: auto;
-  width: 60%;
+  width: 70%;
   max-width: 100%;
-  padding: 70px 100px;
+  padding: 70px 2%;
   height: 100%;
 }
 .presentasjon p {

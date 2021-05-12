@@ -250,7 +250,7 @@ header{
 	z-index: 2;
 	background-color: rgba(240, 230, 230, 1);
 	margin: auto;
-	width: 70%;
+	width: 50%;
 	max-width: 100%;
 	padding: 70px 2%;
 	height: 100%;
@@ -264,13 +264,13 @@ header{
 		float:right;
 		position:inline;
 		width:50px;
+		transform-origin: (bottom right);
 		transition: transform .3s;
 	}
 
 	img:hover{
-
 		transform: scale(10);
-		transform-origin: (bottom right);
+
 	}
 
 	h1{

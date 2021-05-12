@@ -220,7 +220,7 @@ header ul li a:hover {
   z-index: 2;
   background-color: #f0e6e6;
   margin: auto;
-  width: 70%;
+  width: 50%;
   max-width: 100%;
   padding: 70px 2%;
   height: 100%;
@@ -233,11 +233,11 @@ header ul li a:hover {
   float: right;
   position: inline;
   width: 50px;
+  transform-origin: bottom right;
   transition: transform 0.3s;
 }
 .presentasjon img:hover {
   transform: scale(10);
-  transform-origin: bottom right;
 }
 .presentasjon h1 {
   padding: 0px 0px 0px;

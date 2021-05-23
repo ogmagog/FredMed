@@ -308,12 +308,19 @@ header{
 #indexSide{
 	display: block;
 	section{
-		margin: 0px 20% 0px;
-		height: 600px;
+		margin: 0px 0px 0px;
+		height: 70vh;
 		background-color: #EAEAEA;
 
+		p{
+			text-align: center;
+			font-size: 100px;
+			padding: 100px;
+		}
+
 		img{
-			height: 600px;
+			overflow: hidden;
+			height: 70vh;
 			float:right;
 		}
 	}
@@ -321,8 +328,8 @@ header{
 
 	footer{
 		background-color: #365160;
-		margin: 0px 20% 0px;
-		height: 10vh;
+		margin: 0px 0px 0px;
+		height: 100vh;
 	}
 }
 

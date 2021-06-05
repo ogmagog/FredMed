@@ -115,11 +115,17 @@ footer .kontaktinfo {
   background: rgba(0, 0, 0, 0.4);
 }
 #indexSide .midtdel {
-  width: 70%;
-  height: 20vh;
+  width: 80%;
+  min-height: 20vh;
   margin: auto;
   position: inline-block;
-  padding: 100px;
+  padding: 50px;
+}
+#indexSide .midtdel img {
+  height: 250px;
+  float: left;
+  margin-right: 20px;
+  box-shadow: 0px 1px 10px black;
 }
 
 .presentasjon {
